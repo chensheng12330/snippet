@@ -5,7 +5,7 @@
     <databaseInfo>
         <version>134481920</version>
         <UUID>40378CFC-90EB-4498-B017-9E86CC2AE28D</UUID>
-        <nextObjectID>256</nextObjectID>
+        <nextObjectID>258</nextObjectID>
         <metadata>
             <plist version="1.0">
                 <dict>
@@ -550,7 +550,7 @@ uint64_t delta_ns = (delta.tv_sec * NSEC_PER_SEC + delta.tv_usec * NSEC_PER_USEC
     </object>
     <object type="INDEXMANAGER" id="z127">
         <attribute name="synclabel" type="string">9D02B2A5-F0EC-4A94-A782-11B3C8C95B4F-82451-0001128FFDE5409E</attribute>
-        <attribute name="lastindex" type="int64">2</attribute>
+        <attribute name="lastindex" type="int64">3</attribute>
     </object>
     <object type="LICENSE" id="z128">
         <attribute name="label" type="string">gplv3</attribute>
@@ -1196,7 +1196,7 @@ AUTHENTICATION_BACKENDS = (
         <attribute name="ishidden" type="bool">0</attribute>
         <attribute name="isdefault" type="bool">1</attribute>
         <attribute name="index" type="int64">2</attribute>
-        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z252 z181 z168 z182 z232 z172 z183 z180"></relationship>
+        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z252 z181 z168 z182 z232 z172 z257 z183 z180"></relationship>
     </object>
     <object type="SYNTAXHIGHLIGHT" id="z188">
         <attribute name="synclabel" type="string">html</attribute>
@@ -1680,7 +1680,7 @@ sherwin.chen</attribute>
         <attribute name="index" type="int64">1</attribute>
         <relationship name="parent" type="1/1" destination="SIDEBARITEM" idrefs="z137"></relationship>
         <relationship name="children" type="0/0" destination="SIDEBARITEM"></relationship>
-        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z256"></relationship>
+        <relationship name="snippets" type="0/0" destination="SNIPPET" idrefs="z257 z256"></relationship>
     </object>
     <object type="CODE" id="z255">
         <attribute name="content" type="string">path:  Users/admin/Library/Application Support/Snippets/
@@ -1700,5 +1700,27 @@ github</attribute>
         <relationship name="groups" type="0/0" destination="GROUP" idrefs="z254"></relationship>
         <relationship name="shares" type="0/0" destination="SHARE"></relationship>
         <relationship name="tags" type="0/0" destination="TAG"></relationship>
+    </object>
+    <object type="SNIPPET" id="z257">
+        <attribute name="synclabel" type="string">2C1618DD-EFCE-4CA5-91FE-9C634FFD9CD1-442-000009EE006CD900</attribute>
+        <attribute name="name" type="string">github resources</attribute>
+        <attribute name="islocked" type="bool">0</attribute>
+        <attribute name="datemodified" type="date">377705452.40029102563858032227</attribute>
+        <attribute name="dateadded" type="date">377702618.37851899862289428711</attribute>
+        <attribute name="copieswithlicense" type="bool">0</attribute>
+        <relationship name="code" type="1/1" destination="CODE" idrefs="z258"></relationship>
+        <relationship name="license" type="1/1" destination="LICENSE"></relationship>
+        <relationship name="syntaxhighlight" type="1/1" destination="SYNTAXHIGHLIGHT" idrefs="z187"></relationship>
+        <relationship name="groups" type="0/0" destination="GROUP" idrefs="z254"></relationship>
+        <relationship name="shares" type="0/0" destination="SHARE"></relationship>
+        <relationship name="tags" type="0/0" destination="TAG"></relationship>
+    </object>
+    <object type="CODE" id="z258">
+        <attribute name="content" type="string">https://github.com/hillegass/BNRPersistence.git
+
+
+IOS开发之——ASIHTTPRequest请求时\u0cff发送了2次请求问题解决 
+ request.shouldAttemptPersistentConnection = NO;</attribute>
+        <relationship name="snippet" type="1/1" destination="SNIPPET" idrefs="z257"></relationship>
     </object>
 </database>
