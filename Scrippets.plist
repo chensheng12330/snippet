@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<array>
+	<dict>
+		<key>icon</key>
+		<string>/Applications/Snippets.app/Contents/SharedSupport/Scrippets/Add to TextExpander.scrippet/Contents/Resources/Icon.png</string>
+		<key>index</key>
+		<integer>0</integer>
+		<key>isDisabled</key>
+		<false/>
+		<key>name</key>
+		<string>Add to TextExpander</string>
+		<key>path</key>
+		<string>/Applications/Snippets.app/Contents/SharedSupport/Scrippets/Add to TextExpander.scrippet</string>
+		<key>role</key>
+		<string>Exporter</string>
+	</dict>
+	<dict>
+		<key>icon</key>
+		<string>/Applications/Snippets.app/Contents/SharedSupport/Scrippets/Replace Placeholders.scrippet/Contents/Resources/Icon.png</string>
+		<key>index</key>
+		<integer>1</integer>
+		<key>isDisabled</key>
+		<false/>
+		<key>name</key>
+		<string>Replace Placeholders</string>
+		<key>path</key>
+		<string>/Applications/Snippets.app/Contents/SharedSupport/Scrippets/Replace Placeholders.scrippet</string>
+		<key>role</key>
+		<string>Exporter</string>
+	</dict>
+	<dict>
+		<key>icon</key>
+		<string>/Applications/Snippets.app/Contents/SharedSupport/Scrippets/Run.scrippet/Contents/Resources/Icon.png</string>
+		<key>index</key>
+		<integer>2</integer>
+		<key>isDisabled</key>
+		<false/>
+		<key>name</key>
+		<string>Run</string>
+		<key>path</key>
+		<string>/Applications/Snippets.app/Contents/SharedSupport/Scrippets/Run.scrippet</string>
+		<key>role</key>
+		<string>Exporter</string>
+	</dict>
+	<dict>
+		<key>icon</key>
+		<string>/Applications/Snippets.app/Contents/SharedSupport/Scrippets/Pastie.scrippet/Contents/Resources/Pastie.tiff</string>
+		<key>index</key>
+		<integer>3</integer>
+		<key>isDisabled</key>
+		<false/>
+		<key>name</key>
+		<string>Share via Pastie.org</string>
+		<key>path</key>
+		<string>/Applications/Snippets.app/Contents/SharedSupport/Scrippets/Pastie.scrippet</string>
+		<key>role</key>
+		<string>Exporter</string>
+	</dict>
+	<dict>
+		<key>icon</key>
+		<string>/Applications/Snippets.app/Contents/SharedSupport/Scrippets/Snipplr.scrippet/Contents/Resources/Snipplr.png</string>
+		<key>index</key>
+		<integer>4</integer>
+		<key>isDisabled</key>
+		<false/>
+		<key>name</key>
+		<string>Share via Snipplr.com</string>
+		<key>path</key>
+		<string>/Applications/Snippets.app/Contents/SharedSupport/Scrippets/Snipplr.scrippet</string>
+		<key>role</key>
+		<string>Exporter</string>
+	</dict>
+	<dict>
+		<key>icon</key>
+		<string>/Applications/Snippets.app/Contents/SharedSupport/Scrippets/SniptOrg.scrippet/Contents/Resources/SniptOrg.png</string>
+		<key>index</key>
+		<integer>5</integer>
+		<key>isDisabled</key>
+		<false/>
+		<key>name</key>
+		<string>Share via Snipt.org</string>
+		<key>path</key>
+		<string>/Applications/Snippets.app/Contents/SharedSupport/Scrippets/SniptOrg.scrippet</string>
+		<key>role</key>
+		<string>Exporter</string>
+	</dict>
+	<dict>
+		<key>icon</key>
+		<string>/Applications/Snippets.app/Contents/SharedSupport/Scrippets/Gist.scrippet/Contents/Resources/Gist.tiff</string>
+		<key>index</key>
+		<integer>6</integer>
+		<key>isDisabled</key>
+		<false/>
+		<key>name</key>
+		<string>Share via gist.github.com</string>
+		<key>path</key>
+		<string>/Applications/Snippets.app/Contents/SharedSupport/Scrippets/Gist.scrippet</string>
+		<key>role</key>
+		<string>Exporter</string>
+	</dict>
+</array>
+</plist>
